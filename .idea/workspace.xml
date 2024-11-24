@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a32ebe9-0600-4300-9a84-e5c28d23368e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/service/impl/UserServiceImpl2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/aspect/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/aspect/LogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cn/tulingxueyuan/tests/IocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/tulingxueyuan/tests/IocTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +167,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.IocTest.executor": "Run",
     "JUnit.IocTest.test01.executor": "Run",
+    "JUnit.IocTest.test02.executor": "Run",
     "JUnit.MainTest.test (1).executor": "Run",
     "JUnit.MainTest.test.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
@@ -192,14 +193,30 @@
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.tulingxueyuan.proxy.dynamic" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ideaworkspace\java\spring_aop\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.tulingxueyuan.service.impl" />
+      <recent name="cn.tulingxueyuan.proxy.dynamic" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.IocTest.test01">
+    <configuration name="IocTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tulingxueyuan.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.tulingxueyuan.tests" />
+      <option name="MAIN_CLASS_NAME" value="cn.tulingxueyuan.tests.IocTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IocTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_aop" />
       <extension name="coverage">
@@ -211,6 +228,22 @@
       <option name="PACKAGE_NAME" value="cn.tulingxueyuan.tests" />
       <option name="MAIN_CLASS_NAME" value="cn.tulingxueyuan.tests.IocTest" />
       <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tulingxueyuan.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.tulingxueyuan.tests" />
+      <option name="MAIN_CLASS_NAME" value="cn.tulingxueyuan.tests.IocTest" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -251,6 +284,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.IocTest.test01" />
+        <item itemvalue="JUnit.IocTest" />
+        <item itemvalue="JUnit.IocTest.test02" />
         <item itemvalue="JUnit.MainTest.test (1)" />
         <item itemvalue="JUnit.MainTest.test" />
       </list>
@@ -279,7 +314,7 @@
       <workItem from="1732417237532" duration="113000" />
       <workItem from="1732417378665" duration="38000" />
       <workItem from="1732417429456" duration="93000" />
-      <workItem from="1732417529588" duration="4261000" />
+      <workItem from="1732417529588" duration="5005000" />
     </task>
     <servers />
   </component>
