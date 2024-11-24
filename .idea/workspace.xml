@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a32ebe9-0600-4300-9a84-e5c28d23368e" name="Default Changelist" comment="" />
+    <list default="true" id="3a32ebe9-0600-4300-9a84-e5c28d23368e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/aspect/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/aspect/LogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/tulingxueyuan/tests/IocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/tulingxueyuan/tests/IocTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,6 +168,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.IocTest.test01.executor": "Run",
     "JUnit.MainTest.test (1).executor": "Run",
     "JUnit.MainTest.test.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
@@ -192,7 +199,7 @@
       <recent name="D:\ideaworkspace\java\spring_aop\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.test (1)">
+  <component name="RunManager" selected="JUnit.IocTest.test01">
     <configuration name="IocTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_aop" />
       <extension name="coverage">
@@ -243,9 +250,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IocTest.test01" />
         <item itemvalue="JUnit.MainTest.test (1)" />
         <item itemvalue="JUnit.MainTest.test" />
-        <item itemvalue="JUnit.IocTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +279,7 @@
       <workItem from="1732417237532" duration="113000" />
       <workItem from="1732417378665" duration="38000" />
       <workItem from="1732417429456" duration="93000" />
-      <workItem from="1732417529588" duration="2808000" />
+      <workItem from="1732417529588" duration="4261000" />
     </task>
     <servers />
   </component>

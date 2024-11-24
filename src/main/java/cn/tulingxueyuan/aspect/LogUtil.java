@@ -16,6 +16,8 @@ public class LogUtil {
 
 
     // 前置通知
+    // ..代表包括所有子包合子孙包
+    // (..)任意参数
     @Before("execution(* cn.tulingxueyuan.service..*.*(..))")
     public static void before(){
        /* System.out.println(method.getName()+"方法运行前，参数是"+
