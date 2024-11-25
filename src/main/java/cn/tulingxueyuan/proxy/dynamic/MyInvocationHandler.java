@@ -28,13 +28,13 @@ public class MyInvocationHandler implements InvocationHandler {
         try {
             LogUtil.before();
             result = method.invoke(target, args);
-            LogUtil.after();
+            LogUtil.afterEnd();
         }
         catch (Exception ex){
             LogUtil.afterException();
         }
         finally {
-            LogUtil.afterEnd();
+            LogUtil.after();
         }
 
         return result;

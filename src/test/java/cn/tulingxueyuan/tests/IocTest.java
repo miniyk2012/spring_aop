@@ -2,6 +2,7 @@ package cn.tulingxueyuan.tests;
 
 import cn.tulingxueyuan.AppConfig;
 import cn.tulingxueyuan.service.RoleService;
+import cn.tulingxueyuan.service.impl.UserServiceImpl;
 import cn.tulingxueyuan.service.impl.UserServiceImpl2;
 import org.junit.Before;
 import org.junit.Rule;
