@@ -6,7 +6,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
 @ComponentScan(basePackages = "cn.tulingxueyuan")
-@EnableAspectJAutoProxy
+@EnableAspectJAutoProxy  // 启用AOP @Aspect支持
 public class AppConfig {
 
 }

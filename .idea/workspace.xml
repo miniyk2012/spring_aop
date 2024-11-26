@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a32ebe9-0600-4300-9a84-e5c28d23368e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/aspect/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/aspect/LogUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/MyInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/MyInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/tulingxueyuan/tests/IocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/tulingxueyuan/tests/IocTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/AppConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +313,8 @@
       <workItem from="1732417378665" duration="38000" />
       <workItem from="1732417429456" duration="93000" />
       <workItem from="1732417529588" duration="8993000" />
-      <workItem from="1732457781787" duration="2496000" />
+      <workItem from="1732457781787" duration="3135000" />
+      <workItem from="1732522942948" duration="659000" />
     </task>
     <servers />
   </component>
