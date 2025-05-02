@@ -4,7 +4,6 @@ import cn.tulingxueyuan.aspect.LogUtil;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-import java.util.Arrays;
 
 /***
  * @Author 徐庶   QQ:1092002729
@@ -22,6 +21,7 @@ public class MyInvocationHandler implements InvocationHandler {
     // 代理类的执行方法
     // method 被代理对象的方法
     // args: 方法的参数
+    @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 
         Object result=null;

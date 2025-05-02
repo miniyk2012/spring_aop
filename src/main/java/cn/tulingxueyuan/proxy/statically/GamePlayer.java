@@ -13,12 +13,14 @@ public class GamePlayer implements  IGamePlayer {
     }
 
     // 登录了游戏
+    @Override
     public void start(){
         System.out.println("登录游戏...");
         System.out.println(name+"开始了游戏");
         this.name=name;
     }
     // 打怪
+    @Override
     public void play()
     {
         System.out.println(name+"被曹贼玩家击杀了");

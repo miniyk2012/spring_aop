@@ -6,7 +6,6 @@ import java.util.Arrays;
 import org.junit.Test;
 
 import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /***
@@ -21,7 +20,7 @@ public class MainTest {
     public void test(){
 
         ICalculator proxy = (ICalculator) MainTest.createProxy(new Calculator());
-        System.out.printf("112/4=%d", proxy.div(112,4));
+        System.out.printf("112/4=%d\n", proxy.div(112,4));
 
         IGamePlayer proxy2 = (IGamePlayer) MainTest.createProxy(new GamePlayer("yangkai"));
         proxy2.play();

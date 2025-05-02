@@ -18,7 +18,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class IocTest {
     AbstractApplicationContext ioc;
-
+    Boolean IsFrppControlOpen;
     @Rule
     public final ExpectedException exceptionRule = ExpectedException.none();
 
@@ -46,6 +46,5 @@ public class IocTest {
         System.out.println(bean.getClass());   // CGLIB代理
         bean.get(1);
     }
-
 
 }

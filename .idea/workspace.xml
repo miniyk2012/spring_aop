@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3a32ebe9-0600-4300-9a84-e5c28d23368e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/MyInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/MyInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/statically/GamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/statically/GamePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/tulingxueyuan/tests/IocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/tulingxueyuan/tests/IocTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +57,9 @@
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="rusjbx02" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -168,6 +175,7 @@
     &quot;JUnit.IocTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.IocTest.test01.executor&quot;: &quot;Debug&quot;,
     &quot;JUnit.IocTest.test02.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IocTest.test03.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainTest.test (1).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainTest.test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -199,7 +207,7 @@
       <recent name="cn.tulingxueyuan.proxy.dynamic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IocTest.test02">
+  <component name="RunManager" selected="JUnit.MainTest.test">
     <configuration name="IocTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_aop" />
       <extension name="coverage">
@@ -215,22 +223,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IocTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_aop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tulingxueyuan.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.tulingxueyuan.tests" />
-      <option name="MAIN_CLASS_NAME" value="cn.tulingxueyuan.tests.IocTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IocTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_aop" />
       <extension name="coverage">
@@ -242,6 +234,22 @@
       <option name="PACKAGE_NAME" value="cn.tulingxueyuan.tests" />
       <option name="MAIN_CLASS_NAME" value="cn.tulingxueyuan.tests.IocTest" />
       <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tulingxueyuan.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.tulingxueyuan.tests" />
+      <option name="MAIN_CLASS_NAME" value="cn.tulingxueyuan.tests.IocTest" />
+      <option name="METHOD_NAME" value="test03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -281,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IocTest.test02" />
-        <item itemvalue="JUnit.IocTest.test01" />
-        <item itemvalue="JUnit.IocTest" />
-        <item itemvalue="JUnit.MainTest.test (1)" />
         <item itemvalue="JUnit.MainTest.test" />
+        <item itemvalue="JUnit.MainTest.test (1)" />
+        <item itemvalue="JUnit.IocTest.test03" />
+        <item itemvalue="JUnit.IocTest" />
+        <item itemvalue="JUnit.IocTest.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -315,6 +323,11 @@
       <workItem from="1732417529588" duration="8993000" />
       <workItem from="1732457781787" duration="3135000" />
       <workItem from="1732522942948" duration="659000" />
+      <workItem from="1733711009825" duration="14000" />
+      <workItem from="1734137663412" duration="3330000" />
+      <workItem from="1734505546660" duration="598000" />
+      <workItem from="1735985780853" duration="414000" />
+      <workItem from="1746152697303" duration="402000" />
     </task>
     <servers />
   </component>
@@ -396,17 +409,6 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/Calculator.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
