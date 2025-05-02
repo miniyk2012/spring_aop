@@ -13,6 +13,7 @@ import org.springframework.stereotype.Repository;
 public class RoleDaoImpl implements RoleDao {
 
 
+    @Override
     public Role get(Integer id) {
         if(id==null){
             throw new NullPointerException();
@@ -21,6 +22,7 @@ public class RoleDaoImpl implements RoleDao {
         return new Role();
     }
 
+    @Override
     public void add(Role role)  {
         if(role==null){
             throw new NullPointerException();
@@ -28,6 +30,7 @@ public class RoleDaoImpl implements RoleDao {
         // 数据库执行ADD
     }
 
+    @Override
     public void delete(Integer id) {
         if(id==null){
             throw new NullPointerException();
@@ -35,6 +38,7 @@ public class RoleDaoImpl implements RoleDao {
         // 数据库执行DELETE
     }
 
+    @Override
     public void update(Role role) {
         if(role==null){
             throw new NullPointerException();

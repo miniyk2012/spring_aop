@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a32ebe9-0600-4300-9a84-e5c28d23368e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/MyInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/dynamic/MyInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/statically/GamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/proxy/statically/GamePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/tulingxueyuan/tests/IocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/tulingxueyuan/tests/IocTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/tulingxueyuan/service/impl/RoleServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,34 +166,34 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.IocTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.IocTest.test01.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.IocTest.test02.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.IocTest.test03.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainTest.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainTest.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bytedance/Documents/books/java_vip/全新Java基础课程/第4部分-Spring/代码/spring_aop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.4876325&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.IocTest.executor": "Run",
+    "JUnit.IocTest.test01.executor": "Run",
+    "JUnit.IocTest.test02.executor": "Run",
+    "JUnit.IocTest.test03.executor": "Run",
+    "JUnit.MainTest.test (1).executor": "Run",
+    "JUnit.MainTest.test.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/bytedance/Documents/books/java_vip/全新Java基础课程/第4部分-Spring/代码/spring_aop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.4876325",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ideaworkspace\java\spring_aop\src" />
@@ -207,8 +203,8 @@
       <recent name="cn.tulingxueyuan.proxy.dynamic" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.test">
-    <configuration name="IocTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IocTest.test02">
+    <configuration name="IocTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_aop" />
       <extension name="coverage">
         <pattern>
@@ -218,7 +214,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.tulingxueyuan.tests" />
       <option name="MAIN_CLASS_NAME" value="cn.tulingxueyuan.tests.IocTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -289,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IocTest.test02" />
+        <item itemvalue="JUnit.IocTest.test01" />
         <item itemvalue="JUnit.MainTest.test" />
         <item itemvalue="JUnit.MainTest.test (1)" />
         <item itemvalue="JUnit.IocTest.test03" />
-        <item itemvalue="JUnit.IocTest" />
-        <item itemvalue="JUnit.IocTest.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +324,7 @@
       <workItem from="1734137663412" duration="3330000" />
       <workItem from="1734505546660" duration="598000" />
       <workItem from="1735985780853" duration="414000" />
-      <workItem from="1746152697303" duration="402000" />
+      <workItem from="1746152697303" duration="485000" />
     </task>
     <servers />
   </component>

@@ -20,22 +20,26 @@ public class RoleServiceImpl  implements RoleService {
     @Autowired
     RoleDao roleDao;
 
+    @Override
     public Role get(Integer id) {
         System.out.println("查询Role");
         return roleDao.get(id);
     }
 
+    @Override
     public void add(Role role) {
         System.out.println("添加Role");
         roleDao.add(role);
     }
 
+    @Override
     public void delete(Integer id) {
         System.out.println("删除Role");
         roleDao.delete(id);
 
     }
 
+    @Override
     public void update(Role role) {
         System.out.println("修改Role");
         roleDao.update(role);
